@@ -83,43 +83,79 @@ nav {
  }
 
  /* productive styles */
- .productive-h3 {
-    color: #252432;
-    text-align: center;
-    font-size: 35px;
-    margin-bottom: 15px;
- }
-
- .productive-h {
-    color: #4E47FF;
-    font-size: 80px;
-    font-weight: 800;
-    margin-bottom: 5px;
- }
-
- .productive-p {
-    color: rgba(0, 0, 0, 0.5);
-    font-size: 15px;
-    margin-top: 0;
- }
-
- .productive-detaile {
+.productive-detaile {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
- }
-
- .productive-section {
-    background-color: #c9c8e2;
-    border-radius: 20px;
-    margin: 0 200px;
-    padding: 20px 0;   
-} 
-
-.productive-head {
-    text-align: center;
+    gap: 90px;
 }
 
+.productive-h3 {
+    font-size: 38px;
+    font-weight: 800;
+}
+
+.productive-detaile h1{
+    font-size: 80px;
+    color: #4E47FF;
+    margin: 0;
+}
+.productive-detaile p{
+    color: #67666f;
+    font-size: 18px;
+    text-align: center;
+    margin: 0; 
+}
+.productive-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #dad9fd;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    margin: 100px;
+    border-radius: 20px;
+}
+
+/* star styles */
+.users-section {
+    margin: 40px;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;   
+}
+
+.user-h1 {
+    color: #252432;
+}
+.users-card-section{
+    display: flex;
+    gap:270px;
+    padding: 20px; 
+}
+
+.card-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 40px;   
+}
+
+.cards-part{
+      background-color: white;
+      padding: 15px;
+      padding-right: 70px;
+      border-radius: 20px;
+}
+.reviewer{
+    display: flex;
+}
+.reviewer img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
 /* Contact styles */
 .contact-container {
     display: flex;
@@ -191,14 +227,13 @@ section{
     color: #4E47FF;
     font-size: 100px;
     font-weight: 800;
-    margin-bottom: 20px;
+    margin: 0;
 }
 
 .footer-head p {
     color: #8987A1;
     margin-bottom: 0;
     line-height: 1.4;
-    margin-bottom: 5px;
 }
 
 .footer-link {
